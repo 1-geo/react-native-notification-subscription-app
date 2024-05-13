@@ -1,5 +1,5 @@
 import {ViewProps, KeyboardAvoidingView, ScrollView} from 'react-native';
-import React from 'react';
+import React, { memo } from 'react';
 import {isIOS} from '../../lib/methods';
 
 /**
@@ -24,4 +24,4 @@ const KeyboardView: React.FC<ViewProps> = ({children, style}) => {
   );
 };
 
-export default KeyboardView;
+export default memo(KeyboardView);

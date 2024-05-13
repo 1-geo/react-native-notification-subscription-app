@@ -1,5 +1,5 @@
 import {View, Text} from 'react-native';
-import React from 'react';
+import React, { memo } from 'react';
 import styles from './styles';
 import {Colors, IColors} from '../../lib';
 
@@ -19,4 +19,4 @@ const PrimaryHeader: React.FC<PrimaryHeaderProps> = ({
   );
 };
 
-export default PrimaryHeader;
+export default memo(PrimaryHeader);

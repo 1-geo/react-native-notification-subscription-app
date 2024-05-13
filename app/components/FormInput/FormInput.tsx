@@ -1,5 +1,5 @@
 import {View, Text, TextInput} from 'react-native';
-import React, {useRef} from 'react';
+import React, {memo, useRef} from 'react';
 import {FormInputProps} from './types';
 import styles from './styles';
 import {SearchBar} from '../Searchbar';
@@ -29,4 +29,4 @@ const FormInput: React.FC<FormInputProps> = ({
   );
 };
 
-export default FormInput;
+export default memo(FormInput);

@@ -1,5 +1,5 @@
 import {View, Text} from 'react-native';
-import React, {useEffect, useState} from 'react';
+import React, {memo, useEffect, useState} from 'react';
 import {FormDropDownProps} from './types';
 import DropDownPicker, {ValueType} from 'react-native-dropdown-picker';
 import {Colors} from '../../lib';
@@ -44,4 +44,4 @@ const FormDropDown = <T extends ValueType>({
   );
 };
 
-export default FormDropDown;
+export default memo(FormDropDown);
