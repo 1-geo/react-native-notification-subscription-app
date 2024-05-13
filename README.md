@@ -44,7 +44,7 @@ Customizable drop-down picker for react native
 
 ## Previews
 
-There is a demo attached which can be viewed here.
+There is a demo attached which can be viewed under `media/Screen_recording.mp4`
 
 <img src="media/Screenshot.png" alt="Logo Folly" width="350" height="745"  />
 
